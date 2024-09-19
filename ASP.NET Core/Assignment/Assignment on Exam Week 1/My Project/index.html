@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+        *{
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <!-- sidebar -->
+    <div class="h-screen w-screen flex ">
+        <div class="w-72 h-screen bg-slate-300 " >
+            <div class="min-h-24 w-full flex justify-center justify-center">
+                <div class="h-12 w-24 pt-5">
+                    <img class="h-10 w-24" src="/resource/original-2944fb4374c6f4e310f8fabea02a853f.jpg" alt="Logo">
+                </div>
+            </div>
+            <div class="min-h-12 w-full pl-5"><a href="#">Dashboard</a></div>
+            <div class="min-h-12 w-full pl-5"><a href="#">Profile</a></div>
+            <div class="min-h-12 w-full pl-5"><a href="#">Table</a></div>
+            <div class="min-h-12 w-full pl-5"><a href="#">Login</a></div>
+            <div class="min-h-12 w-full pl-5"><a href="#">Register</a></div>
+        </div>
+
+        <!-- main content -->
+         
+        <div class="w-full bg-slate-100">
+            
+            <!-- navbar -->
+
+            <nav class="w-full h-20 bg-slate-600 flex justify-between items-center">
+                <div class="w-72 h-16 flex justify-center items-center pl-5">
+                    <input type="text" class="w-72 h-10 bg-slate-300 rounded-lg pl-2" placeholder="Search">
+                </div>
+                <div class="w-72 h-16 flex justify-center items-center text-white text-bold text-xl"><a href="#">User</a></div>
+            </nav>
+
+            <!-- content -->
+
+            <div class="w-full h-24 flex items-center ml-14">
+                <div class="w-fit h-fit text-2xl">Dashboard</div>
+            </div>
+            <div class="w-full h-40  p-2 gird-row-4 flex place-content-evenly">
+                <div class="w-64 h-32 bg-white p-5 font-bold">
+                    <p class="text-blue-400">EARNINGS</p>
+                    <p >(MONTHLY)</p>
+                    <p>$40,000</p>
+                </div>
+                <div class="w-64 h-32 bg-white p-5 font-bold">
+                    <p class="text-green-400">EARNINGS</p>
+                    <p>(ANNUAL)</p>
+                    <p>$215,000</p>
+                </div>
+                <div class="w-64 h-32 bg-white p-5 font-bold">
+                    <p class="text-red-500">TASKS</p>
+                    <p>(COMPLETED)</p>
+                    <p>50%</p>
+                </div>
+                <div class="w-64 h-32 bg-white p-5 font-bold">
+                    <p class="text-amber-500">PENDING REQUESTS</p>
+                    <p>18</p>
+                </div>
+            </div>
+            <div class="w-full h-fit flex">
+                <div class="w-2/5 h-[22rem] ml-14">
+                    <img class="w-full h-full" src="/resource/modern_earning_overview_2000_2024.png" alt="Earning Overview(2000-2024)">
+                </div>
+                <div class="w-96 h-[22rem] ml-10">
+                    <img class="w-full h-full" src="/resource/revenue_sources_pie_chart.png" alt="Earning Overview(2000-2024)">
+                </div>
+            </div> 
+        </div>
+    </div>
+</body>
+</html>
